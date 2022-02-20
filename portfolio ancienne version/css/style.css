@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("../font/Helvetica-bold.ttf")
+}
+
+@font-face  {
+  font-family: Helvetica;
+  src:url("../font/Helvetica.ttf")
+}
+
+
+
+main{
+  margin-top:100px;
+  margin-bottom:10px;
+}
+
+/* The navigation bar */
+.nav{
+  overflow: hidden;
+  position: absolute; /* Set the navbar to fixed position */
+  background-color: #181818;
+  top:0;
+  width: 100%;
+  right:0;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/* Links inside the navbar */
+.nav a{
+  color: #d4d1d7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Helvetica Bold";
+  opacity: .8;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+.active{
+  background: #181818;
+  color:black;
+  cursor: default;
+}
+
+
+body{
+  background: linear-gradient(to top, #9700f555,#9700f555),url(https://cdn.discordapp.com/attachments/921823159634788434/943628488668241930/1643774456575.jpg) center ;
+  background-attachment: fixed;
+}
+h1{
+  top:100px;
+  font-family: "Helvetica Bold";
+  font-size: 34px;
+  text-indent: 25px;
+  color: #d4d1d7;
+}
+
+h2{
+  font-family: "Helvetica Bold";
+  text-indent: 50px;
+  font-size: 30px;
+  color: #d4d1d7;
+}
+article{
+  font-family: "Helvetica Bold";
+  margin-left: 2.1em;
+  font-size: 25px;
+  color: #d4d1d7;
+}
+#avatar{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left:60px;
+
+}
+#bas{
+  display: flex;
+  flex-direction:row;
+}
+#basbas{
+  display: flex;
+  flex-direction: column;
+}
+.infos,.reseauxsociaux,.presentation{
+
+  width:750px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #050203;
+  box-shadow: 14px 14px 0px 3px #9c3ee8;
+  margin-top:75px;
+}
+
+.présentation, .reseauxsociaux{
+  display: flex;
+  flex-direction: column;
+}
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+div a{
+  text-decoration: none;
+  color: #d4d1d7;
+}
+a:visited{
+  color: #d4d1d7;
+}
+
+

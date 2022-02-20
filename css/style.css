@@ -1,129 +1,116 @@
 @font-face {
-  font-family: "Helvetica Bold";
-  src: url("../font/Helvetica-bold.ttf")
+    font-family: "Helvetica Bold";
+    src: url("../font/Helvetica-bold.ttf")
 }
 
-@font-face  {
-  font-family: Helvetica;
-  src:url("../font/Helvetica.ttf")
+@font-face {
+    font-family: "ubuntumonoR";
+    src: url("../font/UbuntuMono-R.ttf")
 }
-
-
-
 main{
-  margin-top:100px;
-  margin-bottom:10px;
+    margin-top:100px;
+    margin-bottom:10px;
 }
 
-/* The navigation bar */
 .nav{
-  overflow: hidden;
-  position: absolute; /* Set the navbar to fixed position */
-  background-color: #181818;
-  top:0;
-  width: 100%;
-  right:0;
-  display: flex;
-  justify-content: center;
-
+    overflow: hidden;
+    position: absolute; /* Set the navbar to fixed position */
+    background-color: #fafaf6;
+    top:0;
+    width: 100%;
+    right:0;
+    justify-content: center;
+    box-shadow: -3px -93px 133px 0px rgba(0,0,0,0.36) inset;
 }
 
-
-
-
-/* Links inside the navbar */
-.nav a{
-  color: #d4d1d7;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: "Helvetica Bold";
-  opacity: .8;
-  font-size: 55px;
-  display: flex;
-  justify-content: center;
+.nav h1{
+    color: #000000;
+    text-align: center;
+    font-family: "Helvetica Bold";
+    opacity: .8;
+    font-size: 35px;
 
 }
-
-
-
-
-
 
 .active{
-  background: #181818;
-  color:black;
-  cursor: default;
+    background: #fafaf6;
+    color:black;
+    cursor: default;
 }
-
 
 body{
-  background: linear-gradient(to top, #9700f555,#9700f555),url(https://cdn.discordapp.com/attachments/921823159634788434/943628488668241930/1643774456575.jpg) center ;
-  background-attachment: fixed;
-}
-h1{
-  top:100px;
-  font-family: "Helvetica Bold";
-  font-size: 34px;
-  text-indent: 25px;
-  color: #d4d1d7;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)),url(https://cdn.discordapp.com/attachments/921823159634788434/943628488668241930/1643774456575.jpg) center ;
 }
 
-h2{
-  font-family: "Helvetica Bold";
-  text-indent: 50px;
-  font-size: 30px;
-  color: #d4d1d7;
-}
-article{
-  font-family: "Helvetica Bold";
-  margin-left: 2.1em;
-  font-size: 25px;
-  color: #d4d1d7;
-}
-#avatar{
-  height: 250px;
-  width: 250px;
-  position: relative;
-  left:60px;
+#pdp{
+    margin-top: 200px;
+    display:block;
+    width: 300px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 21px solid #ffffff;
+    border-image: linear-gradient(to right, #D8097E, #8C579C, #24468E) 1;
 
 }
-#bas{
-  display: flex;
-  flex-direction:row;
-}
-#basbas{
-  display: flex;
-  flex-direction: column;
-}
-.infos,.reseauxsociaux,.presentation{
+.ppsquare h1{
+    color: #fafaf6;
+    text-align: center;
+    font-family: "Helvetica Bold";
+    font-size: 52px;
 
-  width:750px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #050203;
-  box-shadow: 14px 14px 0px 3px #9c3ee8;
-  margin-top:75px;
 }
 
-.présentation, .reseauxsociaux{
-  display: flex;
-  flex-direction: column;
+.mainsquare{
+    margin-top:150px;
+    background-color:#fafaf6;
+    right:0;
+    left:0;
+    position: absolute;
 }
 
+.mainsquare h1{
+    font-family: ubuntumonoR;
+}
+.console{
+    background-color: #524e4a;
+    margin-left: 15px;
+    width: 50%;
+    box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.52);
+    border-radius: 7px 7px 0px 0px;
 
+
+}
+.console h1{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+    color:white;
+    position:relative;
+    left:15px;
+}
+
+.zoneconsole{
+    background-color: #300a24;
+    color:white;
+    font-family: ubuntumonoR;
+    padding-top: 10px;
+    padding-left: 5px;
+}
 body::-webkit-scrollbar{
-  display: none;
+    display: none;
 }
 
+.dollar{color:white;}
 
+#whitespace1{color: #300a24;}
 
-div a{
-  text-decoration: none;
-  color: #d4d1d7;
+.tiret{color: #1cacff;}
+
+.barre{
+    display: flex;
+    flex-direction: column;
 }
-a:visited{
-  color: #d4d1d7;
+.prefix{
+    color: #61cb5f;
 }
-
-
