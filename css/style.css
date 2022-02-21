@@ -124,8 +124,12 @@ body::-webkit-scrollbar{
     display: flex;
     color:white;
     justify-content: center;
+    //flex-direction: column;
     width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
 }
+
 
 .ligne{
     display: flex;
