@@ -115,9 +115,8 @@ body::-webkit-scrollbar{
 }
 .droite{
     position: relative;
-    left: 51%;
     top: 20px;
-    width: 47%;
+    width: 40%;
 }
 
 .ascii{
@@ -125,7 +124,6 @@ body::-webkit-scrollbar{
     color:white;
     justify-content: center;
     //flex-direction: column;
-    width: 100%;
     align-content: center;
     flex-wrap: wrap;
 }
@@ -133,6 +131,10 @@ body::-webkit-scrollbar{
 
 .ligne{
     display: flex;
-
-margin-top: 10px;
+    margin-top: 10px;
+}
+.inverse{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 32px;
 }
