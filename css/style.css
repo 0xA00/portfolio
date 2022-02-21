@@ -138,3 +138,8 @@ body::-webkit-scrollbar{
     flex-direction: row-reverse;
     margin-right: 32px;
 }
+.titleproject{
+    color:white;
+    display: flex;
+    justify-content: center;
+}
