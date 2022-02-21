@@ -63,7 +63,7 @@ body{
 
 .mainsquare{
     margin-top:150px;
-    background-color:#fafaf6;
+    background-color: #0b1922;
     right:0;
     left:0;
     position: absolute;
@@ -103,7 +103,7 @@ body::-webkit-scrollbar{
 
 .dollar{color:white;}
 
-#whitespace1{color: #300a24;}
+#whitespace1,#whitespace2{color: #300a24;}
 
 .tiret{color: #1cacff;}
 
@@ -113,4 +113,10 @@ body::-webkit-scrollbar{
 }
 .prefix{
     color: #61cb5f;
+}
+.droite{
+    position: relative;
+    left: 51%;
+    top: 20px;
+    width: 47%;
 }
